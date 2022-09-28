@@ -1,0 +1,18 @@
+.containerPortada {
+    border: 1px solid rgb(214, 209, 209);
+    border-radius: 0 0 20px 20px;
+    padding: 0px;
+    margin-top: 10px;
+    /* background-size: cover; */
+}
+
+#fotoPortada {
+    margin-bottom: -50px;
+    /* border-radius: 0 0 20px 20px; */
+}
+
+#fotoPerfil {
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left:  20px;
+} 

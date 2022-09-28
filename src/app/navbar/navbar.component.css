@@ -1,0 +1,20 @@
+.navbarHeader {
+    /* border-radius: 20px; */
+    background-color: #000000;
+}
+
+.navbar-brand {
+    color: white;
+    padding-left: 11px;
+    font-size: 20px;
+}
+
+li {
+    padding-top: 10px;
+    margin-right: 5px;
+    list-style: none;
+}
+
+.login{
+    padding-bottom: 11px;
+}
