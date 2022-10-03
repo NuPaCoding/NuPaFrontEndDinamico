@@ -1,49 +1,54 @@
 <nav class="navbar navbarHeader">
-    <div class="container-fluid">
-      <a class="navbar-brand">Juan José Nuñez Pacheco</a>
-      <ul class="d-flex">
-        <li>
-          <a
+  <div class="container-fluid">
+    <a class="navbar-brand">Juan José Nuñez Pacheco</a>
+    <ul class="d-flex">
+      <li>
+        <a
             class="btn btn-primary"
             style="background-color: #3b5998"
             href="https://facebook.com/"
             target="_blank"
             role="button"
             ><i class="fab fa-facebook-f"></i>
-          </a>
-        </li>
+        </a>
+      </li>
 
-        <li>
-          <a
+      <li>
+        <a
             class="btn btn-primary"
             style="background-color: #ac2bac"
             href="https://instagram.com/"
             target="_blank"
             role="button"
             ><i class="fab fa-instagram"></i>
-          </a>
-        </li>
+        </a>
+      </li>
 
-        <li>
-          <a
+      <li>
+        <a
             class="btn btn-primary"
             style="background-color: #55acee"
             href="https://twitter.com/NuPaCoding/"
             target="_blank"
             role="button"
             ><i class="fab fa-twitter"></i>
-          </a>
-        </li>
+        </a>
+      </li>
 
-        <li>
-          <button
+      <!-- Button trigger modal -->
+      <li>
+        <button
             type="button"
             class="btn btn-success btn-sm login"
-            style="width: 70px; justify-content: center"
-          >
-            Login
-          </button>
-        </li>
-      </ul>
-    </div>
-  </nav>
+            id="loginButton"
+            data-bs-toggle="modal"
+            data-bs-target="#loginModal"
+            >
+            <i class="fa-solid fa-user" id="iconUser"></i>
+        </button>
+
+      </li>
+    </ul>
+  </div>
+</nav>
+<app-login></app-login>

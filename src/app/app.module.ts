@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { FotoPortadaComponent } from './foto-portada/foto-portada.component';
 import { FotoPerfilComponent } from './foto-perfil/foto-perfil.component';
+import { LoginComponent } from './modals/login/login.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FotoPerfilComponent } from './foto-perfil/foto-perfil.component';
     NavbarComponent,
     FooterComponent,
     FotoPortadaComponent,
-    FotoPerfilComponent
+    FotoPerfilComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

@@ -16,5 +16,10 @@ li {
 }
 
 .login{
-    padding-bottom: 11px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+#loginButton {
+    width: 37px;
 }
