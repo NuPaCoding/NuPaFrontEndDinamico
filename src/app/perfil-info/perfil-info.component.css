@@ -1,0 +1,17 @@
+li {
+    padding-top: 10px;
+    margin-right: 5px;
+    list-style: none;
+}
+
+.botonPerfil{
+    padding: 20px 0 0 20px;
+}
+
+.nombrePerfil {
+    padding: 10px 0 0 20px;
+}
+
+.nombrePerfil p {
+    margin: 0;
+}

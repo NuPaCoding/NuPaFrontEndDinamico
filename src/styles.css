@@ -3,6 +3,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.btn {
+    text-transform: none;
+}
+
 /* .fontTitle {
     font-family: 'Montserrat', sans-serif;
     color: black;

@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FotoPortadaComponent } from './foto-portada/foto-portada.component';
 import { FotoPerfilComponent } from './foto-perfil/foto-perfil.component';
 import { LoginComponent } from './modals/login/login.component';
+import { PerfilInfoComponent } from './perfil-info/perfil-info.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { LoginComponent } from './modals/login/login.component';
     FotoPortadaComponent,
     FotoPerfilComponent,
     LoginComponent,
+    PerfilInfoComponent,
   ],
   imports: [
     BrowserModule,
