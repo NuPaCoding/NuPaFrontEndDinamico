@@ -9,6 +9,8 @@ import { FotoPortadaComponent } from './foto-portada/foto-portada.component';
 import { FotoPerfilComponent } from './foto-perfil/foto-perfil.component';
 import { LoginComponent } from './modals/login/login.component';
 import { PerfilInfoComponent } from './perfil-info/perfil-info.component';
+import { AcercaDeComponent } from './acerca-de/acerca-de.component';
+import { ExperienciaComponent } from './experiencia/experiencia.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { PerfilInfoComponent } from './perfil-info/perfil-info.component';
     FotoPerfilComponent,
     LoginComponent,
     PerfilInfoComponent,
+    AcercaDeComponent,
+    ExperienciaComponent,
   ],
   imports: [
     BrowserModule,
