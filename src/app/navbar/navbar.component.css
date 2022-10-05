@@ -3,6 +3,13 @@
     background-color: #000000;
 }
 
+img {
+    padding: 0;
+    margin: 0;
+    width: 10%;
+    height: 10%;
+}
+
 .navbar-brand {
     color: white;
     padding-left: 11px;
@@ -23,3 +30,4 @@ li {
 #loginButton {
     width: 37px;
 }
+
