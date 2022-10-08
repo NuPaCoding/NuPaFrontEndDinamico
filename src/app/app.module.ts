@@ -11,6 +11,9 @@ import { LoginComponent } from './modals/login/login.component';
 import { PerfilInfoComponent } from './perfil-info/perfil-info.component';
 import { AcercaDeComponent } from './acerca-de/acerca-de.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
+import { EducacionComponent } from './educacion/educacion.component';
+import { EduUtnComponent } from './educacion/edu-utn/edu-utn.component';
+import { Exp1Component } from './experiencia/exp1/exp1.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,9 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
     PerfilInfoComponent,
     AcercaDeComponent,
     ExperienciaComponent,
+    EducacionComponent,
+    EduUtnComponent,
+    Exp1Component,
   ],
   imports: [
     BrowserModule,
