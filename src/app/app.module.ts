@@ -18,6 +18,9 @@ import { AcercaInfoComponent } from './acerca-de/acerca-info/acerca-info.compone
 import { EduSecunComponent } from './educacion/edu-secun/edu-secun.component';
 import { SkillsComponent } from './skills/skills.component';
 import { SkillBarsComponent } from './skills/skill-bars/skill-bars.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
+import { ProyectoUnoComponent } from './proyectos/proyecto-uno/proyecto-uno.component';
+import { ProyectoDosComponent } from './proyectos/proyecto-dos/proyecto-dos.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +40,9 @@ import { SkillBarsComponent } from './skills/skill-bars/skill-bars.component';
     EduSecunComponent,
     SkillsComponent,
     SkillBarsComponent,
+    ProyectosComponent,
+    ProyectoUnoComponent,
+    ProyectoDosComponent,
   ],
   imports: [
     BrowserModule,
