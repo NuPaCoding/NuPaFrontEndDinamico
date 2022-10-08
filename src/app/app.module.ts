@@ -16,6 +16,8 @@ import { EduUtnComponent } from './educacion/edu-utn/edu-utn.component';
 import { Exp1Component } from './experiencia/exp1/exp1.component';
 import { AcercaInfoComponent } from './acerca-de/acerca-info/acerca-info.component';
 import { EduSecunComponent } from './educacion/edu-secun/edu-secun.component';
+import { SkillsComponent } from './skills/skills.component';
+import { SkillBarsComponent } from './skills/skill-bars/skill-bars.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { EduSecunComponent } from './educacion/edu-secun/edu-secun.component';
     Exp1Component,
     AcercaInfoComponent,
     EduSecunComponent,
+    SkillsComponent,
+    SkillBarsComponent,
   ],
   imports: [
     BrowserModule,
